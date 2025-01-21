@@ -191,7 +191,7 @@ export class Builder {
             entrypoints: [entry],
             format,
             outdir: outDir,
-            sourcemap: true,
+            sourcemap: "external",
             plugins: this.plugins ?? [],
             throw: false,
         });
