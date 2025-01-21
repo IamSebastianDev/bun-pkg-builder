@@ -1,0 +1,13 @@
+{
+    "name": "@iasd/bun-bake",
+    "description": "Small builder utility to generate packages + type definitions using Bun.build",
+    "version": "1.0.0",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
